@@ -18,7 +18,7 @@
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51310"
+            "fileVersion": "7.0.22.57105"
           }
         },
         "resources": {
@@ -74,7 +74,7 @@
     "FSharp.Core/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xPww0dhsH7o373ZNFY1Y08WRsJJUUzqGk0AIUxxUxSJkWqul0UwCBXg6UmqJX76VdiSvvEXn4SYwX8lYQaZzuQ==",
+      "sha512": "sha512-pU6LSjjTjwH1kseCVGKfAD4BvPxvg29KeroP0Ea4j+x4qJIpTM99G69LOGH0XQlzL8kS1m0sMJ/g0gS9bXHjeg==",
       "path": "fsharp.core/7.0.0",
       "hashPath": "fsharp.core.7.0.0.nupkg.sha512"
     }

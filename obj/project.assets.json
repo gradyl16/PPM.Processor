@@ -60,12 +60,11 @@
   },
   "libraries": {
     "FSharp.Core/7.0.0": {
-      "sha512": "xPww0dhsH7o373ZNFY1Y08WRsJJUUzqGk0AIUxxUxSJkWqul0UwCBXg6UmqJX76VdiSvvEXn4SYwX8lYQaZzuQ==",
+      "sha512": "pU6LSjjTjwH1kseCVGKfAD4BvPxvg29KeroP0Ea4j+x4qJIpTM99G69LOGH0XQlzL8kS1m0sMJ/g0gS9bXHjeg==",
       "type": "package",
       "path": "fsharp.core/7.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "Icon.png",
         "fsharp.core.7.0.0.nupkg.sha512",
         "fsharp.core.nuspec",
@@ -108,25 +107,25 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "/home/hephaestus/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/FSharp/FSharp-Nix.fsproj",
+      "projectUniqueName": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/FSharp-Nix.fsproj",
       "projectName": "FSharp-Nix",
-      "projectPath": "/home/runner/FSharp/FSharp-Nix.fsproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/FSharp/obj/",
+      "projectPath": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/FSharp-Nix.fsproj",
+      "packagesPath": "/home/hephaestus/.nuget/packages/",
+      "outputPath": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "/home/hephaestus/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/nix/store/vjdf1zzgzxl2agqjymsxd8jshyr0p66j-dotnet-sdk-7.0.100/sdk/7.0.100/FSharp/library-packs": {},
+        "/usr/lib/dotnet/sdk/7.0.112/FSharp/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -163,7 +162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/nix/store/vjdf1zzgzxl2agqjymsxd8jshyr0p66j-dotnet-sdk-7.0.100/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
       }
     }
   }

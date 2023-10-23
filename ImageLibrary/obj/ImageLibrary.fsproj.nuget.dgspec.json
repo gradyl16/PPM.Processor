@@ -1,55 +1,65 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Project-02/ImageLibrary/ImageLibrary.fsproj": {}
+    "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/ImageLibrary/ImageLibrary.fsproj": {}
   },
   "projects": {
-    "/home/runner/Project-02/ImageLibrary/ImageLibrary.fsproj": {
+    "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/ImageLibrary/ImageLibrary.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Project-02/ImageLibrary/ImageLibrary.fsproj",
+        "projectUniqueName": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/ImageLibrary/ImageLibrary.fsproj",
         "projectName": "ImageLibrary",
-        "projectPath": "/home/runner/Project-02/ImageLibrary/ImageLibrary.fsproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Project-02/ImageLibrary/obj/",
+        "projectPath": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/ImageLibrary/ImageLibrary.fsproj",
+        "packagesPath": "/home/hephaestus/.nuget/packages/",
+        "outputPath": "/home/hephaestus/school/classes/uic/cs341/projects/ppm-process/ImageLibrary/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/nix/store/whp5n1561cijdjvrwks8hlvfk4gyj055-dotnet-sdk-2.1.810/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/home/hephaestus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "/usr/lib/dotnet/sdk/7.0.112/FSharp/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[4.6.2, )"
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
-              "autoReferenced": true
+              "autoReferenced": true,
+              "generatePathProperty": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
         }
       }
     }
