@@ -12,6 +12,10 @@ namespace ImageLibrary
 
 module Operations =
  
+  // Grayscale
+  //
+  // Converts an image to grayscale by averaging the red, green, and blue values of each pixel.
+  //
   let rec Grayscale (width:int) 
                     (height:int) 
                     (depth:int) 
@@ -31,7 +35,11 @@ module Operations =
 
 
 
-  
+  // Threshold
+  //
+  // Repurposes the image to provide maximum contrast by setting given rgb values to either
+  // 255 or 0 depending on whether they are above or below the given threshold.
+  //
   let rec Threshold (width:int) 
                     (height:int)
                     (depth:int)
@@ -63,7 +71,12 @@ module Operations =
     | [] -> []
     | head :: tail -> List.rev head :: FlipHorizontal width height depth tail
 
-
+  // EdgeDetect
+  //
+  // Takes an image and converts each pixel to either black or white depending on whether or not
+  // that pixel is considered an edge. A pixel is considered an edge if the color distance between
+  // it and either its lower or righthand neighbor is greater than the given threshold.
+  //
   let rec EdgeDetect (width:int)
                (height:int)
                (depth:int)
@@ -95,6 +108,10 @@ module Operations =
       replaceRow (List.head image) (List.item 1 image) :: EdgeDetect width height depth (List.tail image) threshold
 
 
+  // RotateRight90
+  //
+  // Takes an image and returns it after it's been rotated 90 degrees clockwise.
+  //
   let rec RotateRight90 (width:int)
                         (height:int)
                         (depth:int)
