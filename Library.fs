@@ -1,5 +1,6 @@
 // Library.fs
 // Dylen Greenenwald
+// dgree21
 // 10/23/2023
 //
 // A library of F# ppm image processing functions. The functions take the dimensions of the
