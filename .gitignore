@@ -1,9 +1,9 @@
 # Object and binary files
-bin/
-obj
-
 src/*/bin
 src/*/obj
+
+# Image processing output
+src/*/output
 
 # Prerequisites
 *.d
