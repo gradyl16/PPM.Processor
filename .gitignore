@@ -2,10 +2,8 @@
 bin/
 obj
 
-bin/*.Core.dll
-
-*/bin
-*/obj
+src/*/bin
+src/*/obj
 
 # Prerequisites
 *.d
