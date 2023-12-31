@@ -182,8 +182,6 @@ Below are some before and after images created from files located in the `src/PP
 <!-- ROADMAP -->
 ## Roadmap
 
-Available transformative features:
-
 - [ ] Grayscale
 - [ ] Threshold
 - [ ] Horizontal flip
