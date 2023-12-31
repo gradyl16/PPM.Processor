@@ -117,8 +117,6 @@ git clone https://github.com/gradyl16/PPM.Processor.git
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 To run your local instance of the project, do the following (starting from the repo's root directory):
 
 ```sh
