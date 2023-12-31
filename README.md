@@ -21,11 +21,7 @@
   <p align="center">
     A tool to perform various transformations on images in the .ppm format. 
     <br />
-    <a href="https://github.com/gradyl16/PPM.Processor"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/gradyl16/PPM.Processor">View Demo</a>
-    ·
     <a href="https://github.com/gradyl16/PPM.Processor/issues">Report Bug</a>
     ·
     <a href="https://github.com/gradyl16/PPM.Processor/issues">Request Feature</a>
@@ -82,7 +78,7 @@ The `.ppm` image format is a human-readable format which has the following basic
 ```
 [MAGIC NUMBER]
 [INTEGER WIDTH] [INTEGER HEIGHT]
-[MAX COLOR VAL (0<=max<=65536)]
+[MAX COLOR DEPTH (0<=max<=65536)]
 [R G B] [R G B]...
 [R G B]
 ...
